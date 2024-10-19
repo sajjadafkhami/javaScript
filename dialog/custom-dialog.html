@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom dialog</title>
+    <style>
+        .hidden{
+            display: none;
+        }
+        #dialog{
+            width: 36%;
+            height: 32%;
+            border: 1px solid #ccc;
+            position: fixed;
+            top: 34%;
+            right: 32%;
+            box-shadow: 0 0 2px #aaa;
+        }
+        #dialog header{
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+            background-color: #eee;
+            font-weight: bold;
+            font-size: 22px;
+        }
+        #dialog div{
+            padding: 10px;
+        }
+
+        #dialog footer{
+            background-color: #eee;
+            padding: 8px;
+            text-align: center;
+            border-top: 1px solid #ccc;
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <button  type="button" id="show">Show dialog</button>
+        <button type="button" id="hide">close dialog</button>
+        <div id="dialog" class="hidden">
+            <header>
+                custom dialog
+            </header>
+            <div>
+                Are you sure to delete this file?
+            </div>
+            <footer>
+                <button  type="button" id="yes">Yes</button>
+                <button  type="button" id="no">No</button>
+            </footer>
+        </div>
+    </div>
+    <script src="custom-dialog.js"></script>   
+</body>
+</html>

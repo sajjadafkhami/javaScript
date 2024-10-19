@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Guess the Game</title>
+        <link rel="stylesheet" href="guess-number.css" />
+    </head>
+    <body>
+        <div id="main">
+            <h2>عدد را حدس بزن</h2>
+            <div id="stage1">
+                <p>یک عدد را به عنوان حد بالا در نظر بگیرید</p>
+                <input type="text" id="maximum" />
+                <button type="button" id="start">شروع کن</button>
+            </div>
+            <div id="stage2" class="hidden">
+                <p>شما<span id="chances">0</span>بار فرصت حدس زدن دارید</p>
+                <input type="text" id="guess-number" />
+                <button type="button" id="guess-button">حدس بزنید</button>
+                <p id="status">حدس های شما:</p>
+            </div>
+        </div>
+        <script src="guess-number.js"></script>
+    </body>
+</html>

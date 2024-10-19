@@ -1,0 +1,29 @@
+.dialog-btn{
+    display: inline-block;
+    border-style: solid;
+}
+
+.show-btn, .close-btn{
+    display: flex;
+    width: 1fr;
+    padding: 10px;
+    color: blue;
+    background-color: azure;
+    cursor: pointer;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+    transition: opacity 10px;
+    margin-bottom: 20px;
+    
+}
+.show-btn:hover{
+    background-color: aquamarine;
+}
+
+.show-btn:active{
+    background-color: rgb(17, 218, 84);
+}
+.hidden{
+    display: none;
+}

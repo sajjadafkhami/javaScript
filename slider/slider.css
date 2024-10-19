@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+#slider{
+    margin: 10px;
+    width: 960px;
+    height: 328px;
+    overflow: hidden;
+    position: relative;
+    
+}
+
+.slide{
+    position: absolute;
+}
+
+button{
+   font-size: 64px;
+   color: white;
+   background: transparent;
+   border: none;
+   outline: none;
+   cursor: pointer;
+   position: absolute;
+   top: 150px;
+   transition-duration: 0.3s;  
+
+}
+
+#next{
+    left:930px;
+}
+#before{
+    left:0px;
+}
+
+button:hover{
+    color: lightgreen;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Checklist</title>
+    </head>
+    <body>
+        <div id="main">
+            <h1>انتخاب وضعیت</h1>
+            <form>
+                <select name="marriage">
+                    <option  value="مجرد" selected>مجرد</option>
+                    <option value="متاهل">متاهل</option>
+                </select>
+                <br /><hr /><br />
+    
+                <select name="education">
+                    <option value="دیپلم" selected>دیپلم</option>
+                    <option value="کارشناسی">کارشناسی</option>
+                    <option value="کارشناسی ارشد">کارشناسی ارشد</option>
+                    <option value="دکتری">دکتری</option>
+                </select>
+                <hr />
+                <button type="button">مشاهده وضعیت</button>
+            </form>  
+            <h2>وضعیت فعلی شما</h2>
+            <div id="result"></div>
+
+        </div>
+        <script src="checklist.js"></script>
+    </body>
+
+</html>

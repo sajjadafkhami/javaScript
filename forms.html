@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Forms in javasript</title>
+    <style>
+            *{
+                font-size: 20px;
+            }
+            
+            .text-input, .btn-submit{
+                background-color: azure;
+                color: rgb(91, 136, 136);
+                padding: 10px;
+                cursor: pointer;
+                margin: 10px;
+                font-size: large;
+                font-weight: bold;
+                align-items: center;
+                width: 200px;
+                box-shadow: 10px 10px 10 px rgba(red, green, blue, alpha);
+                border-color: aquamarine;
+                border-radius: 2%;
+            }
+            .btn-submit:hover{
+                background-color: rgb(60, 86, 73);
+                opacity: 0.2;
+            }
+            .btn-submit:active{
+                background-color: rgb(21, 52, 210);
+                opacity: 0.2;
+            }
+    </style>
+</head>
+<body>
+    <div>  
+        <form action="https://www.google.com" method="get" name="search">
+            <input type="text" name="mytext" placeholder="search" class="text-input" />
+            <br /><br />
+            <button type="submit" class="btn-submit">send</button>
+        </form>
+    </div>
+</body>
+</html>
